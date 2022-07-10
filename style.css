@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,600;0,800;1,600&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,500&family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+  }
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu ul, li a{
+    display: flex;
+    font-size: 17px;
+    text-decoration: none;
+    justify-content: flex-end;
+    flex-direction: flex-start;
+    color: black;
+    list-style: none;
+    margin: 5px;
+    font-family: 'Gantari', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu a:hover{
+    color: gray;
+}
+
+.isi {
+    font-family: 'Gantari', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.google {
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 150px;
+    display: flex;
+}
+
+.submenu p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    size: 100px;
+    margin: 8px;
+}
+
+.cari {
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.button { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.css-button-fully-rounded--sand {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #adb5bd;
+    background: #adb5bd;
+    margin: 5px;
+    font-family: 'Gantari', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.css-button-fully-rounded--sand:hover {
+    background: #fff;
+    color: #adb5bd
+}
+
+.real {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.real a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+#footer {
+    position: fixed;
+    left: 0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+}
+
+.footer1 {
+    font-size: 15px;
+    font-family: 'Gantari', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #CFD2CF;
+    border: 0.1px solid black transparent;
+}
+
+.footer2 {
+    font-size: 15px;
+    font-family: 'Gantari', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #CFD2CF;
+}
+
+footer{
+    margin-top: auto;
+}
