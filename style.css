@@ -11,21 +11,43 @@ body {
     flex-direction: column;
 }
 
-.menu ul, li a{
-    display: flex;
-    font-size: 17px;
-    text-decoration: none;
-    justify-content: flex-end;
-    flex-direction: flex-start;
-    color: black;
-    list-style: none;
+.menu {
     margin: 5px;
+    display: flex;
+    font-size: 16px;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: flex-start;
+    padding: 5px;
     font-family: 'Gantari', sans-serif;
     font-family: 'Montserrat', sans-serif;
 }
 
+.menu i{
+    color: black;
+    font-size: 100px;
+}
+
+.menu a{
+   text-decoration: none;
+   color: black;
+}
+
 .menu a:hover{
-    color: gray;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.avatar img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.avatar img:hover {
+    border: 1px solid rgba(0, 0, 0, 0.571);
 }
 
 .isi {
@@ -40,6 +62,12 @@ body {
     margin-bottom: 20px;
     margin-top: 150px;
     display: flex;
+    flex-direction: column;
+}
+
+.google p{
+    font-size: small;
+    font-style: oblique;
 }
 
 .submenu p{
@@ -53,14 +81,23 @@ body {
     align-items: center;
     justify-content: center;
     size: 100px;
-    margin: 8px;
 }
 
 .cari {
-    width: 50%;
-    height: 30px;
-    border-radius: 5px;
-    border: 1px solid black;
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+    display: flex;
+    z-index: 3;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    max-width: 584px;
+    padding: 10px;
 }
 
 .button { 
@@ -70,27 +107,26 @@ body {
 }
 
 .css-button-fully-rounded--sand {
-    min-width: 130px;
-    height: 40px;
-    color: #fff;
-    padding: 5px 10px;
-    font-weight: bold;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
     cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-    outline: none;
-    border-radius: 20px;
-    border: 2px solid #adb5bd;
-    background: #adb5bd;
-    margin: 5px;
-    font-family: 'Gantari', sans-serif;
-    font-family: 'Montserrat', sans-serif;
+    user-select: none;
   }
 
 .css-button-fully-rounded--sand:hover {
     background: #fff;
-    color: #adb5bd
+    color: #3c4043;
+    border: 1px solid #a0a1a3;
 }
 
 .real {
@@ -116,21 +152,46 @@ body {
     width:100%;
 }
 
+.footerpos {
+    background: #f2f2f2;
+}
+
 .footer1 {
+    padding: 5px;
+    height: 45px;
+    display: flex;
+    align-items: center;
     font-size: 15px;
     font-family: 'Gantari', sans-serif;
     font-family: 'Montserrat', sans-serif;
-    background-color: #CFD2CF;
-    border: 0.1px solid black transparent;
+    border-bottom: 1px solid rgba(124, 124, 124, 0.414);
 }
 
 .footer2 {
+    padding: 5px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     font-size: 15px;
     font-family: 'Gantari', sans-serif;
     font-family: 'Montserrat', sans-serif;
-    background-color: #CFD2CF;
 }
 
+.kiri, .kanan {
+    display: flex;
+    gap: 10px;
+}
+
+
+.footer2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer2 a:hover{
+    text-decoration: underline;
+}
 footer{
     margin-top: auto;
 }
